@@ -182,7 +182,7 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
+            <button class="navbar-link" data-nav-link>Insights</button>
           </li>
 
           <li class="navbar-item">
@@ -654,8 +654,13 @@
       <article class="portfolio" data-page="portfolio">
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">Case Studies</h2>
         </header>
+
+        <p class="section-intro">
+          Selected work across enterprise AI, backend automation, full-stack products, and digital growth.
+          Some engagements are internal or private, so they are shared here as concise case studies instead of public demos.
+        </p>
 
         <section class="projects">
 
@@ -666,15 +671,19 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>AI SaaS</button>
+              <button data-filter-btn>GenAI &amp; RAG</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Machine Learning</button>
+              <button data-filter-btn>Automation</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web development</button>
+              <button data-filter-btn>Full-Stack</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Digital Growth</button>
             </li>
 
           </ul>
@@ -698,16 +707,19 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>AI SaaS</button>
+                <button data-select-item>GenAI &amp; RAG</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Machine Learning</button>
-
+                <button data-select-item>Automation</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web development</button>
+                <button data-select-item>Full-Stack</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Digital Growth</button>
               </li>
 
             </ul>
@@ -716,166 +728,172 @@
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item active" data-filter-item data-category="genai & rag">
+              <article class="project-card">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="sparkles-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <img src="./assets/images/project-3.jpg" alt="DocuAI case study" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Finance</h3>
+                <h3 class="project-title">DocuAI</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">GenAI &amp; RAG</p>
 
-              </a>
+                <p class="project-text">
+                  Built an enterprise document assistant for PDFs, SOPs, manuals, and policy files so teams could ask questions instead of searching through long documentation.
+                </p>
+
+                <p class="project-meta">
+                  Azure AI Search, OpenAI embeddings, ingestion pipelines, metadata ranking, and hallucination guardrails reduced lookup time from minutes to seconds.
+                </p>
+
+                <p class="project-link-label">Internal case study</p>
+
+              </article>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item active" data-filter-item data-category="genai & rag">
+              <article class="project-card">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="trending-up-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <img src="./assets/images/project-6.png" alt="Equity News Research Tool case study" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Orizon</h3>
+                <h3 class="project-title">Equity News Research Tool</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">GenAI &amp; RAG</p>
 
-              </a>
+                <p class="project-text">
+                  Created an LLM-powered finance research assistant that summarizes market news, scores sentiment, and generates structured analyst-style insights.
+                </p>
+
+                <p class="project-meta">
+                  LangChain, Hugging Face models, FAISS/Chroma retrieval, clustering, and custom prompting accelerated research workflows by nearly 5x.
+                </p>
+
+                <p class="project-link-label">Personal project</p>
+
+              </article>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="ai saas">
-              <a href="#">
+            <li class="project-item active" data-filter-item data-category="genai & rag">
+              <article class="project-card">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="storefront-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                  <img src="./assets/images/project-8.jpg" alt="Retail Q and A Tool case study" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Fundo</h3>
+                <h3 class="project-title">Retail Q&amp;A Tool</h3>
 
-                <p class="project-category">AI SaaS</p>
+                <p class="project-category">GenAI &amp; RAG</p>
 
-              </a>
+                <p class="project-text">
+                  Built a retail operations assistant that answers complex product, inventory, and pricing queries using semantic search and context-aware reasoning.
+                </p>
+
+                <p class="project-meta">
+                  LangChain, Hugging Face embeddings, vector search, catalog ingestion, and recommendation logic improved product discovery for teams by 30-40%.
+                </p>
+
+                <p class="project-link-label">Internal case study</p>
+
+              </article>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="machine learning">
-              <a href="#">
+            <li class="project-item active" data-filter-item data-category="automation">
+              <article class="project-card">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="git-compare-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                  <img src="./assets/images/project-5.png" alt="Meta B2B integration case study" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Brawlhalla</h3>
+                <h3 class="project-title">Meta B2B Integration at HFCL</h3>
 
-                <p class="project-category">Machine Learning</p>
+                <p class="project-category">Automation</p>
 
-              </a>
+                <p class="project-text">
+                  Integrated HFCL internal systems with Meta US to streamline shipment updates and purchase order acknowledgment workflows across partner systems.
+                </p>
+
+                <p class="project-meta">
+                  B2B integration, backend orchestration, and enterprise workflow automation improved data flow reliability for supply chain communication.
+                </p>
+
+                <p class="project-link-label">Enterprise integration</p>
+
+              </article>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="ai saas">
-              <a href="#">
+            <li class="project-item active" data-filter-item data-category="full-stack">
+              <article class="project-card">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="analytics-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                  <img src="./assets/images/project-2.png" alt="GitHub collaboration analytics app case study" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">DSM.</h3>
+                <h3 class="project-title">GitHub Collaboration Analytics App</h3>
 
-                <p class="project-category">AI SaaS</p>
+                <p class="project-category">Full-Stack</p>
 
-              </a>
+                <p class="project-text">
+                  Built a full-stack analytics app to evaluate GitHub collaboration patterns and surface clearer contribution insights for engineering teams.
+                </p>
+
+                <p class="project-meta">
+                  React, Flask, Docker, and SQL optimization improved API response time by 30% while making collaboration data easier to explore.
+                </p>
+
+                <p class="project-link-label">Private build</p>
+
+              </article>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="ai saas">
-              <a href="#">
+            <li class="project-item active" data-filter-item data-category="digital growth">
+              <article class="project-card">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <ion-icon name="megaphone-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                  <img src="./assets/images/project-7.png" alt="GrowMate case study" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">MetaSpark</h3>
+                <h3 class="project-title">GrowMate</h3>
 
-                <p class="project-category">AI SaaS</p>
+                <p class="project-category">Digital Growth</p>
 
-              </a>
-            </li>
+                <p class="project-text">
+                  Founded a creator-focused digital marketing agency built around content strategy, SEO, social campaigns, and audience growth systems.
+                </p>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+                <p class="project-meta">
+                  Combined brand positioning, analytics, monetization strategy, and campaign execution to help creators improve reach and engagement.
+                </p>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                <p class="project-link-label">Agency case study</p>
 
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="machine learning">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Machine Learning</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
+              </article>
             </li>
 
           </ul>
@@ -892,37 +910,41 @@
         - #BLOG
       -->
 
-      <article class="blog" data-page="blog">
+      <article class="blog" data-page="insights">
 
         <header>
-          <h2 class="h2 article-title">Blog</h2>
+          <h2 class="h2 article-title">Insights</h2>
         </header>
+
+        <p class="section-intro">
+          Short takes on generative AI, automation, product thinking, and digital growth drawn from what I am building and learning in public.
+        </p>
 
         <section class="blog-posts">
 
           <ul class="blog-posts-list">
 
             <li class="blog-post-item">
-              <a href="#">
+              <a href="https://www.linkedin.com/posts/sidshehria_things-i-understand-about-artificial-intelligence-activity-7404860065305882624-oPcU" target="_blank" rel="noopener noreferrer">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                  <img src="./assets/images/blog-1.jpg" alt="What building AI is teaching me" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                    <p class="blog-category">AI Lessons</p>
 
                     <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                    <time>Recent</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+                  <h3 class="h3 blog-item-title">What building AI is teaching me</h3>
 
                   <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                    A quick reflection on the practical lessons that started clicking once I began shipping AI projects instead of only studying the theory behind them.
                   </p>
 
                 </div>
@@ -931,26 +953,26 @@
             </li>
 
             <li class="blog-post-item">
-              <a href="#">
+              <a href="https://www.linkedin.com/posts/sidshehria_automation-n8n-googleapi-activity-7379471251569823744-R4dA" target="_blank" rel="noopener noreferrer">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                  <img src="./assets/images/blog-2.jpg" alt="Automating workflows with n8n and Google APIs" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                    <p class="blog-category">Automation</p>
 
                     <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                    <time>Recent</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+                  <h3 class="h3 blog-item-title">Automating workflows with n8n + Google APIs</h3>
 
                   <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                    Lessons from wiring OAuth2, Google services, and reusable workflow logic to remove manual busywork and make reporting pipelines more dependable.
                   </p>
 
                 </div>
@@ -959,26 +981,26 @@
             </li>
 
             <li class="blog-post-item">
-              <a href="#">
+              <a href="https://www.linkedin.com/posts/sidshehria_artificialintelligence-ai-machinelearning-activity-7377594356163149824-MQnj" target="_blank" rel="noopener noreferrer">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                  <img src="./assets/images/blog-3.jpg" alt="How AI creates business impact" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                    <p class="blog-category">AI In Business</p>
 
                     <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                    <time>2025</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+                  <h3 class="h3 blog-item-title">How AI creates real business impact</h3>
 
                   <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                    A practical view on why AI matters now: faster decisions, meaningful automation, and predictive insights that help teams move with more clarity.
                   </p>
 
                 </div>
@@ -987,82 +1009,26 @@
             </li>
 
             <li class="blog-post-item">
-              <a href="#">
+              <a href="https://www.linkedin.com/posts/sidshehria_generativeai-artificialintelligence-llm-activity-7340253838219583492-nI01" target="_blank" rel="noopener noreferrer">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                  <img src="./assets/images/blog-4.jpg" alt="Starting my generative AI journey at HFCL" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
 
                   <div class="blog-meta">
-                    <p class="blog-category">Design</p>
+                    <p class="blog-category">Work Update</p>
 
                     <span class="dot"></span>
 
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                    <time>2025</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+                  <h3 class="h3 blog-item-title">Starting my generative AI journey at HFCL</h3>
 
                   <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                    A snapshot of stepping into enterprise GenAI work, learning fast, and building intelligent applications in a production environment from the ground up.
                   </p>
 
                 </div>
