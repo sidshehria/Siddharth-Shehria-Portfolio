@@ -946,6 +946,12 @@ main {
   margin-bottom: 25px;
 }
 
+.section-intro a {
+  color: var(--orange-yellow-crayola);
+  display: inline-block;
+  margin-top: 6px;
+}
+
 .project-item { display: none; }
 
 .project-item.active {
