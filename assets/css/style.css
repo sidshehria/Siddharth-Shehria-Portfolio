@@ -515,6 +515,12 @@ main {
 
 .about-text p { margin-bottom: 15px; }
 
+.about-text a,
+.timeline-text a,
+.timeline-item-title a {
+  color: var(--orange-yellow-crayola);
+}
+
 
 
 /**
